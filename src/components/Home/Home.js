@@ -1,16 +1,10 @@
 import { Button, Container, Grid } from '@mui/material';
 import React from 'react';
-import { useEffect } from 'react';
-import { useState } from 'react';
 import HomeCard from '../HomeCard/HomeCard';
+import useData from '../LoadData/LoadData';
 import './Home.css';
 const Home = () => {
-    const [courses,setCourses] = useState([]);
-    useEffect(()=>{
-        fetch('./data.json')
-        .then(res => res.json())
-        .then(data => setCourses(data))
-    },[]);
+    const [courses] = useData();
     const someCourse = courses.filter(course=> course.id%2===0);
     return (
         <div className='home-bg'>

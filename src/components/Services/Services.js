@@ -1,16 +1,10 @@
 import React from 'react';
-import { useEffect } from 'react';
-import { useState } from 'react';
+import useData from '../LoadData/LoadData';
 import ServiceCard from '../ServiceCard/ServiceCard';
 import './Services.css';
 
 const Services = () => {
-    const [courses,setCourses] = useState([]);
-    useEffect(()=>{
-        fetch('./data.json')
-        .then(res => res.json())
-        .then(data => setCourses(data))
-    },[]);
+    const [courses] = useData();
     return (
         <div>
                <div className='service-container'>
