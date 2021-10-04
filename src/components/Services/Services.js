@@ -4,6 +4,7 @@ import ServiceCard from '../ServiceCard/ServiceCard';
 import './Services.css';
 
 const Services = () => {
+    // Load data from database
     const [courses] = useData();
     return (
         <div>
