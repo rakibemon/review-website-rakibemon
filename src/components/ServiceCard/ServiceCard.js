@@ -2,6 +2,7 @@ import { Button } from '@mui/material';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './ServiceCard.css'
+
 const ServiceCard = (props) => {
     const {img, name, instractor, price} = props.course
     return (

@@ -24,7 +24,7 @@ const Contact = () => {
                 <Grid item xs={12} md={4}>
                     <div>
                         <h5> Contact </h5>
-                            <ul className='list-unstyled thin-letter'>
+                            <ul className='list-unstyled address'>
                                 <li><i className="fas fa-map-marker-alt me-2 fs-5"></i> House#1062, Banani Model Town, Dhaka</li>
                                 <li><i className="fas fa-envelope me-2 fs-5"></i>rakibemon03@gmail.com</li>
                                 <li> <i className="fas fa-phone-alt me-2 fs-5"></i>01521248316</li>

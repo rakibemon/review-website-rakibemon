@@ -18,8 +18,8 @@ const Footer = () => {
                             <p className='thin-letter' style={{ margin: '30px 0px' }}>The automated process starts as soon as your clothes go into the machine.</p>
                             <Box sx={{ display: 'flex' }}>
                                 <Link className='social-link' to='https://www.facebook.com/aronno.avro/'> <i className="fab fa-facebook"></i> </Link>
-                                <Link className='social-link' to='https://www.facebook.com/aronno.avro/'> <i className="fab fa-linkedin-in"></i> </Link>
-                                <Link className='social-link' to='https://www.facebook.com/aronno.avro/'> <i className="fab fa-github"></i> </Link>
+                                <Link className='social-link' to='https://www.linkedin.com/in/md-rakib-istiak-82243b1ba/'> <i className="fab fa-linkedin-in"></i> </Link>
+                                <Link className='social-link' to='https://github.com/rakibemon'> <i className="fab fa-github"></i> </Link>
                             </Box>
                         </div>
                     </Grid>
