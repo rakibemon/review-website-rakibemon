@@ -54,7 +54,7 @@ const Footer = () => {
                             <p className='thin-letter'>Subscribe our newsletter to get updates.</p>
                             <Input defaultValue="Enter Your E-mail" inputProps={ariaLabel} />
                             <br /> <br />
-                            <Button className='btn-regular' variant="contained">Subscribe</Button>
+                            <Button className='btn-capitalize' variant="contained">Subscribe</Button>
                         </div>
                     </Grid>
                 </Grid>

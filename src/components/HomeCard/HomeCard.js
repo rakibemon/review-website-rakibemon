@@ -1,5 +1,5 @@
 import React from 'react';
-import './HomeCard.css'
+import './HomeCard.css';
 const HomeCard = (props) => {
     const {img, name, instractor, price} = props.course
     return (

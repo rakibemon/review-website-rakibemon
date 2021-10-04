@@ -12,7 +12,7 @@ const NotFound = () => {
             <h1> 404 </h1>
             <h2> Page not found </h2>
             <p>SORRY BUT THE PAGE YOU ARE LOOKING FOR DOES NOT EXIST, HAVE BEEN REMOVED. NAME CHANGED OR IS TEMPORARILY UNAVAILABLE</p>
-            <Button onClick={goHomePage} variant='contained' size='large'> Go to Home </Button>
+            <Button onClick={goHomePage} className='btn-capitalize' variant='contained' size='large'> Go to Home </Button>
         </div>
     );
 };
