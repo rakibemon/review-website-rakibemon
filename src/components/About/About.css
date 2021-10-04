@@ -1,0 +1,9 @@
+.about-container{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-regular{
+    text-transform: capitalize;
+}

@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "name": "Python for Data Science",
+      "instractor": "Mario Speedwagon",
+      "price": 118,
+      "img": "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/167967169/original/3cf25fdc88058f2f503843f3f72b8b3f44a45979/machine-learning-services-using-python.jpg"
+    },
+    {
+      "id": 2,
+      "name": "MERN full stack developer",
+      "instractor": "Rakib Istiak",
+      "price": 80,
+      "img": "https://www.rlogical.com/wp-content/uploads/2020/12/MERN-Stack-considered-the-Best-for-Developing-Web-Apps.png"
+    },
+    {
+      "id": 3,
+      "name": "UX/UI design",
+      "instractor": "Aronno Avro",
+      "price": 50,
+      "img": "https://www.mindinventory.com/blog/wp-content/uploads/2021/03/Different-Between-UI-UX.png"
+    },
+    {
+      "id": 4,
+      "name": "PHP with Laravel",
+      "instractor": "Sanjida Snigdha",
+      "price": 100,
+      "img": "https://jelastic.com/blog/wp-content/uploads/2019/04/laravel-framework.png"
+    },
+    {
+      "id": 5,
+      "name": "Python with Django",
+      "instractor": "Tamzid Tuhin",
+      "price": 120,
+      "img": "https://miro.medium.com/max/1200/1*slHeZngyeUr7ypEz7MNL5w.png"
+    },
+    {
+      "id": 6,
+      "name": "Anjular JS",
+      "instractor": "Sagor Biswas",
+      "price": 98,
+      "img": "https://www.techiexpert.com/wp-content/uploads/2019/07/AngularJS-1.png"
+    },
+    {
+      "id": 7,
+      "name": "Programming with C++",
+      "instractor": "Mamun Vuiya",
+      "price": 118,
+      "img": "https://www.educative.io/v2api/editorpage/5393602882568192/image/6038586442907648"
+    },
+    {
+      "id": 8,
+      "name": "Artificial intelligence",
+      "instractor": "Emon",
+      "price": 150,
+      "img": "https://analyticsinsight.b-cdn.net/wp-content/uploads/2021/08/How-Companies-are-Using-Artificial-Intelligence.jpg"
+    }
+  ]

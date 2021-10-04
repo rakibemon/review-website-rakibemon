@@ -6,10 +6,11 @@ import Services from './components/Services/Services';
 import NotFound from './components/NotFound/NotFound';
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Router>
         <Header/>
         <Switch>
@@ -21,6 +22,9 @@ function App() {
           </Route>
           <Route path='/services'>
             <Services></Services>
+          </Route>
+          <Route path='/contact'>
+            <Contact></Contact>
           </Route>
           <Route exact path='/'>
             <Home></Home>

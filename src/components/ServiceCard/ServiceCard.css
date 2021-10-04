@@ -1,0 +1,16 @@
+.service-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+.service-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.service-img{
+    width: 362px;
+    height: 220px;
+    padding: 12px;
+    border-radius: 20px 20px 0px 0px;
+}

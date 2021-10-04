@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600&display=swap');
+.bg{
+    background-image: url('../img/home-bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+.hero-section{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.hero-section p{
+    font-size: 17px;
+}
+.hero-title{
+    margin-top: 0px;
+    font-size:48px;
+    font-weight: 700;
+}
+.btn{
+    color: #ff9f67;
+}
+.home-courses{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+    position: relative;
+    top: -100px;
+}
