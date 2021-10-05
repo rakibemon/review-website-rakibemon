@@ -4,6 +4,10 @@ import './Header.css';
 import logo from '../img/logo.png'
 
 const Header = () => {
+    const activeStyle = {
+        color: "#fff",
+        backgroundColor: '#1abc9c'
+    }
     return (
         <div>
             <nav className='nav'>
@@ -11,10 +15,10 @@ const Header = () => {
                     <Link to='/contact'><img src={logo} alt="Logo" /></Link>
                 </div>
                 <div className="nav-navigation">
-                    <NavLink className='nav-item' to='/home'> Home </NavLink>
-                    <NavLink className='nav-item' to='/about'> About </NavLink>
-                    <NavLink className='nav-item' to='/services'> Services </NavLink>
-                    <NavLink className='nav-item' to='/contact'> Contact Us </NavLink>
+                    <NavLink activeStyle={activeStyle} className='nav-item' to='/home'> Home </NavLink>
+                    <NavLink activeStyle={activeStyle} className='nav-item' to='/about'> About </NavLink>
+                    <NavLink activeStyle={activeStyle} className='nav-item' to='/services'> Services </NavLink>
+                    <NavLink activeStyle={activeStyle} className='nav-item' to='/contact'> Contact Us </NavLink>
                 </div>
             </nav>
         </div>

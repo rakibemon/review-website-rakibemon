@@ -6,15 +6,18 @@
 .nav-navigation{
     display: flex;
     width: 45%;
+    padding: 28px 4px;
     justify-content: space-around;
     align-items: center;
 }
 .nav-item {
     text-decoration: none;
     font-weight: 600;
-    padding: 28px 4px;
+    padding: 12px 24px;
     color: #111;
+    transition: all 0.4s linear;
 }
 .nav-item:hover{
-    color: tomato;
+    color: #fff;
+    background-color: #1abc9c;
 }

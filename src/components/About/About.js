@@ -10,6 +10,8 @@ import { CourseContext } from '../../App';
 
 const About = () => {
     const [courseImg] = useImgData()
+
+    // Load data using Context API
     const [courses] = useContext(CourseContext);
     const history = useHistory();
     const handleBrowse = () => {

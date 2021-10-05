@@ -18,34 +18,42 @@ function App() {
   return (
     <CourseContext.Provider value={[courses]}>
       <div>
-      <Router>
-        <Header/>
-        <Switch>
-          <Route path='/home'>
-            <Home></Home>
-          </Route>
-          <Route path='/about'>
-            <About></About>
-          </Route>
-          <Route path='/services'>
-            <Services></Services>
-          </Route>
-          <Route path='/contact'>
-            <Contact></Contact>
-          </Route>
-          <Route exact path='/'>
-            <Home></Home>
-          </Route>
-          <Route path='*'>
-            <NotFound></NotFound>
-          </Route>
-        </Switch>
-        <Footer></Footer>
-      </Router>
-    </div>
+        <Router>
+          <Switch>
+            <Route exact path='/home'>
+              <Header />
+              <Home></Home>
+              <Footer></Footer>
+            </Route>
+            <Route path='/about'>
+              <Header />
+              <About></About>
+              <Footer></Footer>
+            </Route>
+            <Route path='/services'>
+              <Header />
+              <Services></Services>
+              <Footer></Footer>
+            </Route>
+            <Route path='/contact'>
+              <Header />
+              <Contact></Contact>
+              <Footer></Footer>
+            </Route>
+            <Route exact path='/'>
+              <Header />
+              <Home></Home>
+              <Footer></Footer>
+            </Route>
+            <Route path='*'>
+              <NotFound></NotFound>
+            </Route>
+          </Switch>
+        </Router>
+      </div>
 
     </CourseContext.Provider>
-    
+
   );
 }
 
