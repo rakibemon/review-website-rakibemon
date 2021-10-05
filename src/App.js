@@ -7,10 +7,17 @@ import NotFound from './components/NotFound/NotFound';
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import Contact from './components/Contact/Contact';
+import { createContext } from 'react';
+import useData from './components/LoadData/LoadData';
+
+
+export const CourseContext = createContext(['course'])
 
 function App() {
+  const [courses] = useData()
   return (
-    <div>
+    <CourseContext.Provider value={[courses]}>
+      <div>
       <Router>
         <Header/>
         <Switch>
@@ -36,6 +43,9 @@ function App() {
         <Footer></Footer>
       </Router>
     </div>
+
+    </CourseContext.Provider>
+    
   );
 }
 

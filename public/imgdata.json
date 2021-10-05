@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "name":"Programming",
+      "img": "https://www.goodcore.co.uk/blog/wp-content/webp-express/webp-images/uploads/2019/08/coding-vs-programming-2.jpg.webp"
+    },
+    {
+      "id": 2,
+      "name":"App Development",
+      "img": "https://mk0appinventiv4394ey.kinstacdn.com/wp-content/uploads/sites/1/2019/10/Android-app-development-cost-1.png"
+    },
+    {
+      "id": 3,
+      "name":"Video Editing",
+      "img": "https://www.zilliondesigns.com/blog/wp-content/uploads/video-editing.jpg"
+    },
+    {
+      "id": 4,
+      "name":"Graphics design",
+      "img": "https://i0.wp.com/www.graphic-design-institute.com/wp-content/uploads/2020/02/the-best-applications-to-learn-as-a-graphics-designer.jpg?fit=1200%2C800&ssl=1"
+    },
+    {
+      "id": 5,
+      "name":"Music",
+      "img": "https://img.freepik.com/free-vector/musical-notes-frame-with-text-space_1017-32857.jpg?size=626&ext=jpg"
+    },
+    {
+      "id": 6,
+      "name":"UX/UI Design",
+      "img": "https://www.mindinventory.com/blog/wp-content/uploads/2021/03/Different-Between-UI-UX.png"
+    },
+    {
+      "id": 7,
+      "name":"Web application",
+      "img": "https://www.reachfirst.com/wp-content/uploads/2018/08/Web-Development.jpg"
+    },
+    {
+      "id": 8,
+      "name":"Artificial intelligence",
+      "img": "https://analyticsinsight.b-cdn.net/wp-content/uploads/2021/08/How-Companies-are-Using-Artificial-Intelligence.jpg"
+    }
+  ]

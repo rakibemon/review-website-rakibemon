@@ -8,5 +8,5 @@ const useData = () =>{
         .then(data => setCourses(data))
     },[]);
     return [courses,setCourses]
-}
+};
 export default useData

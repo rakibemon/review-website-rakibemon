@@ -11,3 +11,8 @@
 .about-bg{
     background-color: #b3e7ee;
 }
+.about-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
