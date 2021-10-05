@@ -1,0 +1,21 @@
+.single-course-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 700px;
+}
+.single-course-info{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.single-course-detail img{
+    width: 500px;
+    height: 250px;
+    border-radius: 20px;
+    object-fit: cover;
+}

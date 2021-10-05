@@ -4,7 +4,7 @@ import { useEffect, useState } from "react"
 const useInstractorData = () => {
     const [instractorData, setInstractorData] = useState([])
     useEffect(() => {
-        fetch('./instractorData.json')
+        fetch('/instractorData.json')
             .then(res => res.json())
             .then(data => setInstractorData(data))
     }, [])

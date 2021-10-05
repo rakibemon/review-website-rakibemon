@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "name": "Python for Data Science",
+      "instractor": "Mario Speedwagon",
+      "price": 118,
+      "img": "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/167967169/original/3cf25fdc88058f2f503843f3f72b8b3f44a45979/machine-learning-services-using-python.jpg",
+      "description": "Kickstart your learning of Python for data science, as well as programming in general, with this beginner-friendly introduction to Python. Python is one of the world’s most popular programming languages, and there has never been greater demand for professionals with the ability to apply Python fundamentals to drive business solutions across industries. "
+    },
+    {
+      "id": 2,
+      "name": "MERN full stack developer",
+      "instractor": "Rakib Istiak",
+      "price": 80,
+      "img": "https://www.rlogical.com/wp-content/uploads/2020/12/MERN-Stack-considered-the-Best-for-Developing-Web-Apps.png",
+      "description": "MERN stands for MongoDB, Express, React, Node, after the four key technologies that make up the stack.Express and Node make up the middle (application) tier. Express.js is a server-side web framework, and Node.js the popular and powerful JavaScript server platform. Regardless of which variant you choose, ME(RVA)N is the ideal approach to working with JavaScript and JSON, all the way through."
+    },
+    {
+      "id": 3,
+      "name": "UX/UI design",
+      "instractor": "Aronno Avro",
+      "price": 50,
+      "img": "https://www.mindinventory.com/blog/wp-content/uploads/2021/03/Different-Between-UI-UX.png",
+      "description": "The UI/UX Design Specialization brings a design-centric approach to user interface and user experience design, and offers practical, skill-based instruction centered around a visual communications perspective, rather than on one focused on marketing or programming alone. In this sequence of four courses, you will summarize and demonstrate all stages of the UI/UX development process, from user research to defining a project’s strategy, scope, and information architecture, to developing sitemaps and wireframes. You’ll learn current best practices and conventions in UX design and apply them to create effective and compelling screen-based experiences for websites or apps."
+    },
+    {
+      "id": 4,
+      "name": "PHP with Laravel",
+      "instractor": "Sanjida Snigdha",
+      "price": 100,
+      "img": "https://jelastic.com/blog/wp-content/uploads/2019/04/laravel-framework.png",
+      "description": "Laravel is a free, open-source PHP web framework, created by Taylor Otwell and intended for the development of web applications following the model–view–controller architectural pattern and based on Symfony."
+    },
+    {
+      "id": 5,
+      "name": "Python with Django",
+      "instractor": "Tamzid Tuhin",
+      "price": 120,
+      "img": "https://miro.medium.com/max/1200/1*slHeZngyeUr7ypEz7MNL5w.png",
+      "description": "Django is a Python-based free and open-source web framework that follows the model–template–views architectural pattern. It is maintained by the Django Software Foundation, an American independent organization established as a 501 non-profit."
+    },
+    {
+      "id": 6,
+      "name": "Anjular JS",
+      "instractor": "Sagor Biswas",
+      "price": 98,
+      "img": "https://www.techiexpert.com/wp-content/uploads/2019/07/AngularJS-1.png",
+      "description": "AngularJS is a JavaScript-based open-source front-end web framework for developing single-page applications. It is maintained mainly by Google and a community of individuals and corporations"
+    },
+    {
+      "id": 7,
+      "name": "Programming with C++",
+      "instractor": "Mamun Vuiya",
+      "price": 118,
+      "img": "https://www.educative.io/v2api/editorpage/5393602882568192/image/6038586442907648",
+      "description": "C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or \"C with Classes\"."
+    },
+    {
+      "id": 8,
+      "name": "Artificial intelligence",
+      "instractor": "Emon",
+      "price": 150,
+      "img": "https://analyticsinsight.b-cdn.net/wp-content/uploads/2021/08/How-Companies-are-Using-Artificial-Intelligence.jpg",
+      "description": "Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems. Specific applications of AI include expert systems, natural language processing, speech recognition and machine vision."
+    }
+  ]

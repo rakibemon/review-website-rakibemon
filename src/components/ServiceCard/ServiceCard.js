@@ -1,10 +1,14 @@
 import { Button } from '@mui/material';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link,useHistory } from 'react-router-dom';
 import './ServiceCard.css'
 
 const ServiceCard = (props) => {
-    const { img, name, instractor, price } = props.course
+    const { img, name, instractor, price,id } = props.course;
+    const history = useHistory();
+    const handleClick = () =>{
+        history.push(`/services/${id}`)
+    };
     return (
         <div className='service-card'>
             <figure>
@@ -14,7 +18,7 @@ const ServiceCard = (props) => {
                 <h5>{name}</h5>
                 <p> by <b>{instractor}</b> </p>
                 <p>Price : $ {price}</p>
-                <Button className='btn-capitalize service-btn' variant='outlined' color='warning'> Find Out More</Button>
+                <Button onClick={handleClick} className='btn-capitalize service-btn' variant='outlined' color='warning'> Find Out More</Button>
             </div>
         </div>
     );

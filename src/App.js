@@ -9,6 +9,7 @@ import Footer from './components/Footer/Footer'
 import Contact from './components/Contact/Contact';
 import { createContext } from 'react';
 import useData from './components/LoadData/LoadData';
+import ServiceDetail from './components/ServiceDetail/ServiceDetail';
 
 
 export const CourseContext = createContext(['course'])
@@ -25,17 +26,22 @@ function App() {
               <Home></Home>
               <Footer></Footer>
             </Route>
-            <Route path='/about'>
+            <Route exact path='/about'>
               <Header />
               <About></About>
               <Footer></Footer>
             </Route>
-            <Route path='/services'>
+            <Route exact path='/services'>
               <Header />
               <Services></Services>
               <Footer></Footer>
             </Route>
-            <Route path='/contact'>
+            <Route exact path='/services/:serviceId'>
+              <Header />
+              <ServiceDetail/>
+              <Footer></Footer>
+            </Route>
+            <Route exact path='/contact'>
               <Header />
               <Contact></Contact>
               <Footer></Footer>
