@@ -4,6 +4,8 @@ import './Header.css';
 import logo from '../img/logo.png'
 
 const Header = () => {
+
+    // Style when the page active
     const activeStyle = {
         color: "#fff",
         backgroundColor: '#1abc9c'

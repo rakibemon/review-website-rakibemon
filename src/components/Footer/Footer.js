@@ -35,6 +35,7 @@ const Footer = () => {
                         </div>
                     </Grid>
 
+                    {/* Link to navigate this websites components */}
                     <Grid item xl={2} lg={3} md={4} sm={5}>
                         <div>
                             <h5> Links </h5>

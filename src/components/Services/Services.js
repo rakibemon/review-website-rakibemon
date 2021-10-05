@@ -4,15 +4,15 @@ import ServiceCard from '../ServiceCard/ServiceCard';
 import './Services.css';
 
 const Services = () => {
-    // Load data from database
+    // Load data from database to display
     const [courses] = useData();
     return (
         <div>
-               <div className='service-container'>
-               {
-                   courses.map(course=> <ServiceCard key={course.id} course={course}></ServiceCard>)
-               }
-               </div>
+            <div className='service-container'>
+                {
+                    courses.map(course => <ServiceCard key={course.id} course={course}></ServiceCard>)
+                }
+            </div>
         </div>
     );
 };

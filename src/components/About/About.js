@@ -11,9 +11,11 @@ import { CourseContext } from '../../App';
 const About = () => {
     const [courseImg] = useImgData()
 
-    // Load data using Context API
+    // Load data using useContext
     const [courses] = useContext(CourseContext);
     const history = useHistory();
+
+    // handle button to move service page
     const handleBrowse = () => {
         history.push('/services')
     }
@@ -49,9 +51,9 @@ const About = () => {
                 <Container fixed>
                     <Grid container spacing={6}>
                         <Grid item sx={12} md={6} style={{
-                            display:'flex',
-                            justifyContent:'center',
-                            alignItems:'center'
+                            display: 'flex',
+                            justifyContent: 'center',
+                            alignItems: 'center'
                         }}>
                             <div>
                                 <h1>Become an Instructor</h1> <br />

@@ -7,7 +7,9 @@ const Home = () => {
 
     // Load data from database
     const [courses] = useData()
-    const someCourse = courses.filter(course => course.id % 2 === 0);
+
+    // make slice to display only four data from database
+    const someCourse = courses.slice(1, 5);
     return (
         <div className='home-bg'>
             <Container fixed>

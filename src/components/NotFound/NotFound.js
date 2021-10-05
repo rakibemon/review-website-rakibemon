@@ -3,8 +3,10 @@ import React from 'react';
 import { useHistory } from 'react-router';
 import './NotFound.css'
 const NotFound = () => {
-    const history = useHistory()
-    const goHomePage = () =>{
+    const history = useHistory();
+
+    // Move to home page from not found
+    const goHomePage = () => {
         history.push('/home')
     }
     return (
