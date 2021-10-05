@@ -21,12 +21,17 @@
     font-size:48px;
     font-weight: 700;
 }
+.top-course{
+    position: relative;
+    top: -140px;
+    color: #fff;
+}
 .home-courses{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 40px;
     position: relative;
-    top: -100px;
+    top: -120px;
 }
 @media only screen and (max-width: 688px){
     .home-courses{

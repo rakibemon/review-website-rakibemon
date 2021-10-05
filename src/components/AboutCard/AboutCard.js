@@ -8,10 +8,8 @@ const AboutCard = (props) => {
             <div className='text-center about-img-container'>
                 <figure>
                     <img className='about-img' src={img} alt="CourseImage" />
+                    <h5 className='centered'> {name} </h5>
                 </figure>
-                <div>
-                    <h5 className='centered'> {name}</h5>
-                </div>
             </div>
         </Grid>
 

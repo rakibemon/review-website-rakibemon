@@ -1,0 +1,21 @@
+.single-instractor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-instractor img{
+    width: 200px;
+    height: 200px;
+    border:10px solid #F7F1FF;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.instractor-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -3,8 +3,19 @@ figure{
 }
 .about-img-container{
     position: relative;
-  text-align: center;
-  color: rgb(0, 0, 0);
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.about-img-container h5{
+    position: absolute;
+    font-weight: 700;
+    font-size: 20px;
+    opacity: 0;
+    color: #111;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: visibility 0s, opacity 0.2s linear;
 }
 .about-img{
     border: 10px solid rgba(255,255,255,.5);
@@ -12,18 +23,16 @@ figure{
     height: 200px;
     border-radius: 20px;
     transition: transform 0.3s ease-in-out;
-    opacity: 0.6;
+    opacity: 1;
 }
 .about-img-container:hover{
-    color: #111;
-}
-.about-img:hover{
     transform: scale(1.04);
-    opacity: 0.4;
+    cursor: pointer;
 }
-.centered{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.about-img-container:hover .about-img{
+    opacity: 0.3;
+}
+.about-img-container:hover h5{
+    visibility: visible;
+    opacity: 1; 
 }

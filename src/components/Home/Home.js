@@ -18,9 +18,10 @@ const Home = () => {
                         <h1 className='hero-title'>Learn new skills online <br /> with top educators</h1>
                         <p>Learn 100% online with world-class universities <br />  and industry experts.
                         </p>
-                        <Button className='btn-capitalize' size="large" variant="contained">Join Us</Button>
+                        <Button className='btn-capitalize' size="large" variant="contained">Enroll</Button>
                     </Grid>
                 </Grid>
+                <h2 className='top-course'>Top Courses</h2>
                 <div className="home-courses">
                     {
                         someCourse.map(course => <HomeCard key={course.id} course={course}></HomeCard>)

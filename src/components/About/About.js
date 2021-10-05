@@ -7,6 +7,8 @@ import useImgData from '../LoadData/LoadImg';
 import instractor from '../img/instractor.jfif'
 import './About.css'
 import { CourseContext } from '../../App';
+import useInstractorData from '../LoadData/useInstractorData';
+import Instractor from '../Instractor/Instractor';
 
 const About = () => {
     const [courseImg] = useImgData()
@@ -18,7 +20,10 @@ const About = () => {
     // handle button to move service page
     const handleBrowse = () => {
         history.push('/services')
-    }
+    };
+
+    // Load Instractor Data
+    const [instractorData] = useInstractorData()
     return (
         <div>
             <div className='about-bg'>
@@ -33,7 +38,7 @@ const About = () => {
                         </Grid>
 
                         <Grid item sm={12} md={6}>
-                            <h2>The world’s largest selection of online courses</h2>
+                            <h2 className='mb-4'>The world’s largest selection of online courses</h2>
                             <p>Millions of people have used Kingster to decide which online course to take. We aggregate courses from many universities to help you find the best courses on almost any subject, wherever they exist. Our goal is to make online education work for everyone</p>
                             <p> Right Now We have {courses.length} Courses</p>
                             <Button onClick={handleBrowse} className='btn-capitalize' size='large' color='info' variant="contained"> Browse Courses </Button>
@@ -47,10 +52,20 @@ const About = () => {
                     courseImg.map(img => <AboutCard key={img.id} img={img}></AboutCard>)
                 }
             </Grid>
+
+            <Container fixed>
+            <h2 className='text-center text-info' style={{marginTop:"50px"}}>Community experts</h2>
+                <Grid container spacing={4} className='mt-3'>
+                    {
+                        instractorData.map(instractor => <Instractor key={instractor.id} instractor={instractor}></Instractor>)
+                    }
+                </Grid>
+            </Container>
+
             <div className='about-bg mt-5 py-4'>
                 <Container fixed>
                     <Grid container spacing={6}>
-                        <Grid item sx={12} md={6} style={{
+                        <Grid item xs={12} md={6} style={{
                             display: 'flex',
                             justifyContent: 'center',
                             alignItems: 'center'
@@ -66,7 +81,7 @@ const About = () => {
                                 <Button className='btn-capitalize' variant='contained' size='large'> Become a Instructor</Button>
                             </div>
                         </Grid>
-                        <Grid item sx={12} md={6}>
+                        <Grid item xs={12} md={6}>
                             <div>
                                 <figure>
                                     <img src={instractor} alt="Instractor" />
